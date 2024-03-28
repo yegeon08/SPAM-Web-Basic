@@ -1,2 +1,3 @@
 # SPAM-Web-Basic
-SPAM 공부
+
+첫 번째 커밋이다~!
