@@ -41,3 +41,33 @@
 12. serverless -서버 역할을 대신 해주는 서비스
 
 13. 결론 - 프론트 붐이 옴, 나중엔 프론트 백엔드 구분 없어질 수도 있음
+
+# Markdown 기본 문법
+
+## h2
+
+### h3
+
+#### h4
+
+##### h5
+
+###### h6
+
+p태그
+
+- 1번
+- 2번
+- 3번
+
+```javascript
+console.log("Hello World");
+```
+
+# JavaScript 공부
+
+## 실행하는 방법
+
+- app,js에서 comsole.log를 입력한다. 그 다음 ""사이에 원하는 말을 적고 html 파일에서 <bady> 바깥쪽에 <script></script>를 입력하고 app.js에서 입력한 것을 똑같이 쓴다. 저장 후에 라이브 서버를 열고 F12를 누르고 console에 들어가면 된다.
+
+- node js를 설치한 뒤 vsc에서 새 터미널을 만들고 밑에 나온 터미널에서 cd js를 입력하고 엔터치고 node.app js를 치면 된다.
