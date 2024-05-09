@@ -71,3 +71,49 @@ console.log("Hello World");
 - app,js에서 comsole.log를 입력한다. 그 다음 ""사이에 원하는 말을 적고 html 파일에서 <bady> 바깥쪽에 <script></script>를 입력하고 app.js에서 입력한 것을 똑같이 쓴다. 저장 후에 라이브 서버를 열고 F12를 누르고 console에 들어가면 된다.
 
 - node js를 설치한 뒤 vsc에서 새 터미널을 만들고 밑에 나온 터미널에서 cd js를 입력하고 엔터치고 node.app js를 치면 된다.
+
+if문
+if(조건){
+
+}
+else if(위 조건 아닌 다른 조건){
+
+}
+else{
+
+}
+
+let 변수 = a>19
+if(변수){
+console.log("");
+}
+else{
+console.log("");
+}
+
+switch문
+변수 선언
+switch(변수){
+case 1
+console.log("");
+break;
+case 2
+console.log("");
+break;
+case 3
+console.log("");
+break;
+default
+console.log("");
+break;
+}
+
+compile
+const PI = 3.14
+console.log(PI == 3.14);
+console.log(PI != 3.14);
+console.log(PI >= 3.14);
+console.log(PI <= 3.14);
+
+console.log(3.14 == "3.14")
+3.14 == "3.14" -> 똑같다
