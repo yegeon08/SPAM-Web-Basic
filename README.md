@@ -117,3 +117,44 @@ console.log(PI <= 3.14);
 
 console.log(3.14 == "3.14")
 3.14 == "3.14" -> 똑같다
+
+while
+let i = 0;
+while (i < 10) {
+console.log(i);
+i++;
+if (i > 10) {
+break;
+}
+}
+변수가 어떤 값이 될 때까지 반복한다.
+
+do_while
+let i = 0;
+do {
+console.log(i);
+i++;
+} while (i > 10);
+console.log(i);
+조건문 전에 실행
+한번은 실행한다
+
+for
+for (let i = 0; i < 10; i++) {
+console.log(i);
+}
+
+for (let i = 2; i <= 9; i++) {
+for (let j = 1; j <= 9; j++) {
+console.log(`${i}*${j}=${i * j}`);
+}
+}
+
+for (let i = 1; i <= 5; i++) {
+for (let j = 1; j <= i; j++) {
+console.log("\*");
+}
+}
+괄호 안에 변수 선언, 언제까지 반복할지, 증감식을 쓴다.
+for 안에 for를 쓰면 바깥쪽 for를 실행 한번 하고 안쪽 for를 모두 실행
+바깥쪽 for 다할 때까지 반복
