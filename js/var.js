@@ -28,4 +28,3 @@ console.log(
   baby,
   "입니다."
 );
-// 제 이름은 name이고, 17살에 여자친구는 false 남자친구는 underfined 애기는 null입니다.

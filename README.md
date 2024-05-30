@@ -158,3 +158,81 @@ console.log("\*");
 괄호 안에 변수 선언, 언제까지 반복할지, 증감식을 쓴다.
 for 안에 for를 쓰면 바깥쪽 for를 실행 한번 하고 안쪽 for를 모두 실행
 바깥쪽 for 다할 때까지 반복
+
+AI와 LLM
+Artificial Intrlligence
+인공 지능
+
+50년대 튜링테스트
+60년대 논리적 문제해결
+70년대 ai의 겨울
+90년대이후 컴퓨터 성능의 향상과 대규모 데이터 축적
+
+ai종류
+narrow ai 좁은 ai
+general ai 일반 ai 대표적 예:터미네이터
+string ai 강한 ai 너무 추상적임
+
+특이점
+ai가 인간의 지능을 확 뛰어넘는 순간 2045년 예상
+strong ai 개발될 때?
+인간이 쓸모없어질 때?
+
+머신러닝
+단순한 것을 학습
+
+딥러닝
+ai 그 자체
+인공신경망
+기계학습 하위 모델
+
+LLM
+라지 랭귀지 모델
+멍티모달?
+이미지,음성인식 등 해석
+
+Gemini
+gpt 구글 버전
+
+array
+자바의 자료형중 하나
+순서있는 데이터 묶음
+0부터 시작
+자료형 섞어 써도 되지만 지양
+
+object
+키값으로 묶은 데이터 묶음
+배열과 같이 모든 자료형 쓸 수 있음
+
+for(let a of b) -> b를 a에 저장
+if(a.role == "c"){
+console.log(a);
+}
+->c에 해당하는 a의 값만 출력
+
+for(let i=n; i=a,lengh;i++){
+
+}
+
+함수
+function a(){
+console.log("dgdgd");
+}
+a();
+=>dgdgd 출력
+
+function a(bbbbb){
+console.log(`${bbbbb}하세요`);
+}
+a("안녕")
+=>안녕하세요 출력
+
+function n(a,b){
+return a+b;
+}
+console.log(n(a`,b`));
+
+const d = n(a,b);
+console.log(n);
+
+둘 다 같은 값 출력
